@@ -46,9 +46,48 @@ header .container {
     min-height:400px;
 }
 
-footer{
+/* footer{
   height: 60px;
+} */
+
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
+footer ul li a:hover {
+  color: #2196f3 ;
+}
 
+footer ul li a{
+  color: white;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+  color: #e91e63   !important;
+ }
+
+/* label underline focus color */
+ .input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #e91e63   !important;
+  box-shadow: 0 1px 0 0 #e91e63   !important;
+ }
+
+ /* label focus color */
+.input-field input[type=email]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+  color: #e91e63   !important;
+ }
+
+/* label underline focus color */
+ .input-field input[type=email]:focus, .materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #e91e63   !important;
+  box-shadow: 0 1px 0 0 #e91e63   !important;
+ }
 
